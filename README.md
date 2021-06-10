@@ -20,7 +20,15 @@
 1. After cloning this git repository, go the root folder of the repo.
 2. run `npm run build:elements-prod` to build the project. This will produce a `dist` with artefacts
 3. Copy the `dist` folder to under `/src/main/webapp/static/` of your web project. That is, you will have a number of js/css files under the folder `/src/main/webapp/static/dist/oslc-ui`
-4. Use generated `/dist/oslc-ui/java-gen/*` classes for your Java app
+4. Add the following dependency to your Java app:
+
+```
+<dependency>
+    <groupId>org.eclipse.lyo.server</groupId>
+    <artifactId>oslc-ui-model</artifactId>
+    <version>4.1.0-SNAPSHOT</version>
+</dependency>
+```
 
 ### oslc-selector
 
