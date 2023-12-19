@@ -36,7 +36,7 @@
     "bootstrap": "^4.5.0",
     "classlist.js": "^1.1.20150312",
     "jquery": "^3.5.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "popper.js": "^1.16.1",
     "rxjs": "^6.5.5",
     "tslib": "^2.0.0",
